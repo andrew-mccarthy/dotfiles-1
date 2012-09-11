@@ -33,7 +33,10 @@ alias grc='git rebase --continue'
 alias grs='git rebase --skip'
 alias gpp='git pull --rebase && git push'
 alias gmf='git merge --ff-only'
+alias gwc='git whatchanged -p --abbrev-commit --pretty=medium'
+
 alias pryr='pry -r ./config/environment -r rails/console/app -r rails/console/helpers'
+
 alias pgstart='pg_ctl -D /usr/local/var/postgres -l /usr/local/var/postgres/server.log start'
 alias pgstop='pg_ctl -D /usr/local/var/postgres stop -s -m fast'
 
